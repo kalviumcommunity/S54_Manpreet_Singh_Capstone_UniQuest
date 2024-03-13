@@ -3,7 +3,6 @@ const app = express();
 const port = 8002;
 const mongoose = require("mongoose");
 require("dotenv").config()
-const cors = require('cors');
 
 async function main() {
   await mongoose.connect(
@@ -11,7 +10,6 @@ async function main() {
   );
 }
 app.use(express.json());
-app.use(cors())
 app.get('/',(req,res)=>{
   main()
   .then(() => {
