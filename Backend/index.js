@@ -10,6 +10,10 @@ async function main() {
   );
 }
 app.use(express.json());
+app.use((err, req, res, next) => {
+  let { status = 500, message = "Some error occured..!" } = err;
+  res.status(status).send(message);
+});
 app.get('/',(req,res)=>{
   main()
   .then(() => {
