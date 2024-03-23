@@ -32,6 +32,6 @@ const universitySchema = new mongoose.Schema({
   }
 });
 
-const User = mongoose.model("User", userSchema);
+const University = mongoose.model("University",universitySchema );
 
-module.exports = User;
+module.exports = University;
