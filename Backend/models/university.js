@@ -29,6 +29,10 @@ const universitySchema = new mongoose.Schema({
   examType: {
     type: String,
     required: true,
+  },
+  image:{
+    type: String,
+    required: true,
   }
 });
 
