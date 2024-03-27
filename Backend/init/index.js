@@ -141,7 +141,36 @@ const data = [
 
 
 
-University.insertMany(data)
+const users = [
+  new User({
+    username: "Manpreet",
+    password:"manpreet1"
+  }),
+  new User({
+    username: "Rikhil",
+    password:"rikhil1"
+  }),
+  new User({
+    username: "Aayush",
+    password:"Aayush"
+  }),
+  new User({
+    username: "Pranshu",
+    password:"pranshu1"
+  }),
+  new User({
+    username: "Dwij",
+    password:"dwij1"
+  }),
+  new User({
+    username: "Gurpreet",
+    password:"gurpreet1"
+  })
+]
+
+
+
+User.insertMany(users)
   .then((docs)=>{
     console.log('====================================');
     console.log("Data Pushed");
