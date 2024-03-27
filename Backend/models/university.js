@@ -3,36 +3,29 @@ const mongoose = require("mongoose");
 const universitySchema = new mongoose.Schema({
   name: {
     type: String,
-    required: true,
-    unique: true,
   },
   description:{
     type: String,
-    required: true,
+
   },
   ranking: {
-    type: String,
-    required: true,
+    type: Object,
   },
-  Contact: {
-    type: String,
-    required: true,
+  contact: {
+    type: Object,
+
   },
-  Eligibility: {
+  eligibility: {
     type: String,
-    required: true,
   },
-  Placement: {
+  placement: {
     type: String,
-    required: true,
   },
   examType: {
     type: String,
-    required: true,
   },
   image:{
     type: String,
-    required: true,
   }
 });
 
