@@ -2,14 +2,18 @@ const express = require ('express')
 const app = express();
 const port = 8002;
 const mongoose = require("mongoose");
+const {router} = require('./routes');
 require("dotenv").config()
+const cors = require("cors");
 
 async function main() {
   await mongoose.connect(
     process.env.MONGO_URL
   );
 }
+app.use(cors())
 app.use(express.json());
+app.use("/university",router)
 app.use((err, req, res, next) => {
   let { status = 500, message = "Some error occured..!" } = err;
   res.status(status).send(message);
