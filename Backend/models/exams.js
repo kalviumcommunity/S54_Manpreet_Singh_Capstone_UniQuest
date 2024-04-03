@@ -6,7 +6,6 @@ const ExamSchema = new mongoose.Schema({
   },
   description:{
     type: String,
-
   },
 });
 

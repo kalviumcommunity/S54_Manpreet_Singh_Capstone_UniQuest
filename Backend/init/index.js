@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 const express = require('express');
 const University = require("../models/university");
 const User = require("../models/user");
+const Exam = require("../models/exams");
 require("dotenv").config({ path: "../.env" });
 const app = express();
 
@@ -168,9 +169,73 @@ const users = [
   })
 ]
 
+const exams = [
+  new Exam({
+    name: "JEE Main",
+    description: "A national level entrance exam for admission to undergraduate engineering programs in NITs, IIITs, and other centrally funded technical institutions.",
+  }),
+  new Exam({
+    name: "JEE Advanced",
+    description: "The second stage of the Joint Entrance Examination, granting admission to the Indian Institutes of Technology (IITs) and some other prestigious engineering colleges.",
+  }),
+  new Exam({
+    name: "BITSAT (Birla Institute of Technology and Science Admission Test)",
+    description: "Conducted for admission to undergraduate engineering programs at BITS Pilani, Goa, and Hyderabad campuses.",
+  }),
+  new Exam({
+    name: "NEET (National Eligibility and Entrance Test)",
+    description: "An entrance examination for admission to undergraduate medical and dental courses in government and private medical colleges in India.",
+  }),
+  new Exam({
+    name: "NATA (National Aptitude Test in Architecture)",
+    description: "Required for admission to undergraduate architecture programs across participating institutions in India.",
+  }),
+  new Exam({
+    name: "NCHMCT-JEE (National Council for Hotel Management & Catering Technology’s Joint Entrance Exam)",
+    description: "Entrance exam for admission to undergraduate hospitality and hotel management courses at NCHMCT-affiliated institutions.",
+  }),
+  new Exam({
+    name: "CUET (UG) (Common University Entrance Test)",
+    description: "Conducted for admission to undergraduate programs at central universities across India.",
+  }),
+  new Exam({
+    name: "LSAT India (Law School Admission Test–India)",
+    description: "For admission to undergraduate law programs in participating law schools in India.",
+  }),
+  new Exam({
+    name: "NIFT Entrance (National Institute of Fashion Technology)",
+    description: "Entrance exam for admission to undergraduate programs in fashion and design at NIFT campuses.",
+  }),
+  new Exam({
+    name: "VITEEE (Vellore Institute of Technology Engineering Entrance Examination)",
+    description: "Conducted for admission to undergraduate engineering programs at Vellore Institute of Technology (VIT) campuses.",
+  }),
+  new Exam({
+    name: "IIMC Entrance Exam (Indian Institute of Mass Communication)",
+    description: "For admission to various postgraduate diploma courses in journalism and mass communication at Indian Institute of Mass Communication.",
+  }),
+  new Exam({
+    name: "GATE (Graduate Aptitude Test in Engineering)",
+    description: "A national level examination for admission to postgraduate programs in engineering and technology across India.",
+  }),
+  new Exam({
+    name: "MBA (Master of Business Administration)",
+    description: "Entrance exams like CAT, MAT, XAT, etc., for admission to MBA programs offered by various management institutes across India.",
+  }),
+  new Exam({
+    name: "MHT CET (Maharashtra Common Entrance Test)",
+    description: "For admission to undergraduate courses in engineering, pharmacy, and agriculture in colleges in Maharashtra.",
+  }),
+  new Exam({
+    name: "IMU CET (Indian Maritime University Common Entrance Test)",
+    description: "Entrance exam for admission to undergraduate programs in maritime studies and related fields at Indian Maritime University and its affiliated institutes.",
+  }),
+];
 
 
-User.insertMany(users)
+
+
+Exam.insertMany(exams)
   .then((docs)=>{
     console.log('====================================');
     console.log("Data Pushed");
