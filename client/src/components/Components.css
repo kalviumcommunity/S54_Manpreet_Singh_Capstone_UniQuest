@@ -1,0 +1,58 @@
+/* Homepage CSS  */
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.background{
+  background-color: #000000;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Faq Page Css  */
+
+.back{
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: 60vh;
+  align-items: center;
+
+}
+.faqHeading{
+  color: #EEB572;
+text-align: center;
+font-family: "Saira Condensed", sans-serif;
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.faqline1{
+  color: #FFF;
+  font-family: "Saira Condensed", sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+letter-spacing: 1px;
+text-align: center;
+}
+
+
+/* Accordion Css  */
+
+.accordions{
+  display: flex;
+  flex-direction: column;
+  gap: 2vmax;
+}
+
+.accordianmodal{
+padding-top: 4vmax;
+}
