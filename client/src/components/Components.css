@@ -56,3 +56,33 @@ text-align: center;
 .accordianmodal{
 padding-top: 4vmax;
 }
+
+
+/* Navbar Css  */
+
+.navbar_background{
+  background-color: #000000;
+  width: 100vw;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+}
+.navbar_logo{
+  width: 55vw;
+  height: 7vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.navbar_logo img{
+  text-align: center;
+  width: 30vw;
+  height: 5vh;
+}
+.navbar_drawer{
+  width: 43vw;
+  height: 7vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
