@@ -5,8 +5,8 @@ import Homepage from './components/Homepage'
 const App = () => {
   return (
     <div>
-      {/* <ClerkAuth/> */}
-      <Homepage/>
+      <ClerkAuth/>
+      {/* <Homepage/> */}
     </div>
   )
 }
