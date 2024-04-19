@@ -3,13 +3,16 @@ const express = require("express");
 const app = express();
 const router = express.Router();
 const exam = express.Router();
+const UserRouter = express.Router()
 const University = require("./models/university");
 const Exam = require("./models/exams");
+const User = require("./models/user");
 require("dotenv").config();
 
 
 router.use(express.json());
 exam.use(express.json());
+UserRouter.use(express.json());
 
 async function main() {
   await mongoose.connect(process.env.MONGO_URL);
@@ -36,5 +39,37 @@ main()
     res.send(returnExam);
   })
   
+  UserRouter.get("/", async (req, res) => {
+    let result;
+    try {
+      result = await User.find();
+      res.send(result);
+    } catch (err) {
+      res.status(500).send("Internal Server Error");
+    }
+  });
 
-  module.exports = {router,exam};
+  UserRouter.post("/", async (req, res) => {
+    console.log("Request body:", req.body);
+    try {
+      const {  email, name } = req.body;
+      let user = await User.findOne({ email });
+      console.log("user: ", user);
+      if (!user) {
+        user = new User({
+          name: name,
+          email: email,
+          // userId: userId,
+        });
+        await user.save();
+        res.status(201).send("User created successfully");
+      } else {
+  
+        res.status(200).json("User already exists");
+      }
+    } catch (err) {
+      res.status(500).send(err.message);
+    }
+  });
+
+  module.exports = {router,exam,UserRouter};
