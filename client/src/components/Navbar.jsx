@@ -20,8 +20,7 @@ const Navbar = () => {
     as={IconButton}
     aria-label='Options'
     icon={<HamburgerIcon />}
-    variant='outline'
-    backgroundColor={'white'}
+    backgroundColor={'#e8e8e8'}
   />
   <MenuList>
     <MenuItem >
