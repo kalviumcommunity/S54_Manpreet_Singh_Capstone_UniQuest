@@ -133,7 +133,7 @@ line-height: normal;
   flex-direction: row; /* Make sure it's set to "row" */
   align-items: center;
   justify-content: center;
-  gap: 70px;
+  gap: 2vmax;
   padding-top: 4vh;
   font-family: "Saira Condensed";
 }
