@@ -86,3 +86,63 @@ padding-top: 4vmax;
   justify-content: end;
   align-items: center;
 }
+
+/* Search Bar Css  */
+
+.searchbar_background{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.searchbar_back{
+  width: 70vw;
+  height: 35vh;
+  border-radius: 20px;
+  background: #232323;
+  margin-top: 20vw;
+}
+.search_top{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vmax;
+  padding-top: 2.5vw;
+}
+.search_top_heading{
+  color: #B5B5B5;
+  width: 15vw;
+  text-align: center;
+  font-family: "Fira Sans Condensed";
+  font-size: 2.7vmin;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;;
+}
+.search_top_type{
+  margin-left: 7vmin;
+  color: #FFF;
+text-align: center;
+font-family: "Saira Condensed";
+font-size: 4vmin;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.searchbar_bottom {
+  display: flex;
+  flex-direction: row; /* Make sure it's set to "row" */
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  padding-top: 4vh;
+  font-family: "Saira Condensed";
+}
+
+.searchbar_dropdown{
+  width: 50vw ;
+  display: flex;
+}
+.searchbar_button{
+  display: flex;
+  margin-top: 3.5vh;
+}
