@@ -8,8 +8,8 @@ const App = () => {
     <div>
       {/* <ClerkAuth/> */}
       {/* <Homepage/> */}
-      {/* <Navbar/>  */}
-      <SearchBar/>
+      <Navbar/> 
+      {/* <SearchBar/> */}
     </div>
   )
 }
