@@ -68,7 +68,7 @@ padding-top: 4vmax;
   flex-direction: row;
 }
 .navbar_logo{
-  width: 55vw;
+  width: 47vw;
   height: 7vh;
   display: flex;
   justify-content: end;
@@ -85,6 +85,19 @@ padding-top: 4vmax;
   display: flex;
   justify-content: end;
   align-items: center;
+}
+
+.signIn{
+  width: 8vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 /* Search Bar Css  */

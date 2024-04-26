@@ -2,9 +2,13 @@ import React, { useState } from 'react'
 import './Components.css'
 import { Menu, MenuButton, MenuList, MenuItem, IconButton } from '@chakra-ui/react';
 import { HamburgerIcon, AddIcon, ExternalLinkIcon, RepeatIcon, EditIcon } from '@chakra-ui/icons';
+import ClerkAuth from './Clerk';
 const Navbar = () => {
   return (
     <div className='navbar_background'>
+      <div className='signIn'>
+        <ClerkAuth/>
+      </div>
       <div className='navbar_logo'>
       <svg width="160" height="46" viewBox="0 0 160 46" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M71.5402 14V25.908H70.092V13.3563H75.2414V27.6782H80.7126V9.97701H85.8621V27.6782H91.3333L91.4943 0H82.3218V7.08046H84.092V1.93103H89.4023L89.5632 25.908H87.7931V8.04598H80.7126V3.86207H71.5402V10.4598H73.4713V5.95402H78.7816V25.908H77.1724V11.4253H68V28H73.4713V14H71.5402Z" fill="#EEB572"/>
