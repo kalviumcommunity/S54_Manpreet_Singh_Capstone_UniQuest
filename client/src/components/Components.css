@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: scroll;
 }
 
 /* Faq Page Css  */
@@ -135,7 +136,7 @@ padding-top: 4vmax;
   margin-left: 7vmin;
   color: #FFF;
 text-align: center;
-font-family: "Saira Condensed";
+font-family: "Saira Condensed", sans-serif;
 font-size: 4vmin;
 font-style: normal;
 font-weight: 400;
@@ -148,7 +149,7 @@ line-height: normal;
   justify-content: center;
   gap: 2vmax;
   padding-top: 4vh;
-  font-family: "Saira Condensed";
+  font-family: "Saira Condensed", sans-serif;
 }
 
 .searchbar_dropdown{
@@ -159,3 +160,62 @@ line-height: normal;
   display: flex;
   margin-top: 3.5vh;
 }
+
+/* About Us Css  */
+
+.about_Background_image{
+  width: 100vw;
+  height: 55vh;
+    background: url(../assets//imagebackground.png) lightgray 50% / cover no-repeat;
+    opacity: 1;
+  }
+.about_background{
+  width: 100vw;
+  height: 55vh;
+  background: #232323 ;
+opacity: 0.9;
+  }
+  .about_section{
+    display: flex;
+    flex-direction: column;
+  }
+  .about_heading{
+    padding-top: 4vmin;
+    width: 30%;
+    color: #EEB572;
+text-align: center;
+font-family: "Saira Condensed", sans-serif;
+font-size: 3.7vmax;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+
+  .about_bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2.8vmax;
+  }
+  .aboutus_part{
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 70%;
+    color: #FFF;
+font-family: Saira;
+font-size: 2.2vmin;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+padding-bottom: 2vmin;
+
+  }
+  .about_image img{
+    width: 30vw;
+height: 35vh;
+flex-shrink: 0;
+padding-bottom: 10px;
+padding-bottom: 3vmin;
+  }
