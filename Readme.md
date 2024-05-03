@@ -1,6 +1,6 @@
 # UniQuest
 
-# Frontend Deployed Link - **Will be uploaded**
+# Frontend Deployed Link - **https://uniquest-vert.vercel.app/**
 
 # Backend Deployed Link - **Will be uploaded**
 
