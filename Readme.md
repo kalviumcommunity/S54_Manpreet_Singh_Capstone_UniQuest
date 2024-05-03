@@ -2,7 +2,7 @@
 
 # Frontend Deployed Link - **https://uniquest-vert.vercel.app/**
 
-# Backend Deployed Link - **Will be uploaded**
+# Backend Deployed Link - **https://s54-manpreet-singh-capstone-uni-quest.vercel.app/**
 
 **Our website will be Mobile Responsive you may use it with any device!**
 
