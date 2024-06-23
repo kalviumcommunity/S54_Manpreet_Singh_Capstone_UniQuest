@@ -2,7 +2,7 @@ const express = require ('express')
 const app = express();
 const port = 8002;
 const mongoose = require("mongoose");
-const {router,exam,UserRouter} = require('./routes');
+const {router,exam,UserRouter,Testimonial} = require('./routes');
 require("dotenv").config()
 const cors = require("cors");
 
@@ -16,6 +16,7 @@ app.use(express.json());
 app.use("/university",router)
 app.use("/exams",exam);
 app.use("/user",UserRouter)
+app.use("/testimonial",Testimonial)
 app.use((err, req, res, next) => {
   let { status = 500, message = "Some error occured..!" } = err;
   res.status(status).send(message);

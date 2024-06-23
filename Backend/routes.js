@@ -3,16 +3,19 @@ const express = require("express");
 const app = express();
 const router = express.Router();
 const exam = express.Router();
-const UserRouter = express.Router()
+const UserRouter = express.Router();
+const Testimonial = express.Router();
 const University = require("./models/university");
 const Exam = require("./models/exams");
 const User = require("./models/user");
+const testimonial = require("./models/testimonial")
 require("dotenv").config();
 
 
 router.use(express.json());
 exam.use(express.json());
 UserRouter.use(express.json());
+Testimonial.use(express.json());
 
 async function main() {
   await mongoose.connect(process.env.MONGO_URL);
@@ -72,4 +75,14 @@ main()
     }
   });
 
-  module.exports = {router,exam,UserRouter};
+  Testimonial.get("/", async (req, res) => {
+    let result;
+    try {
+      result = await testimonial.find();
+      res.send(result);
+    } catch (err) {
+      res.status(500).send("Internal Server Error");
+    }
+  });
+  module.exports = {router,exam,UserRouter,Testimonial};
+  
