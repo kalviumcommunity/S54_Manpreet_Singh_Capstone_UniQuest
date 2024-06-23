@@ -4,6 +4,7 @@ import Homepage from './components/Homepage'
 import Navbar from './components/Navbar'
 import SearchBar from './components/SearchBar'
 import AboutUs from './components/AboutUs'
+// import Testimonials from './components/Testimonial'
 const App = () => {
   return (
     <div>
@@ -11,7 +12,7 @@ const App = () => {
       <Homepage/>
       {/* <Navbar/>  */}
       {/* <SearchBar/> */}
-      
+      {/* <Testimonials/> */}
     </div>
   )
 }

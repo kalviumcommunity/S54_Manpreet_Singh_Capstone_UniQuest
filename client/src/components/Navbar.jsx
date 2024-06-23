@@ -3,7 +3,7 @@ import './Components.css'
 import { Menu, MenuButton, MenuList, MenuItem, IconButton } from '@chakra-ui/react';
 import { HamburgerIcon, AddIcon, ExternalLinkIcon, RepeatIcon, EditIcon } from '@chakra-ui/icons';
 import ClerkAuth from './Clerk';
-const Navbar = () => {
+const Navbar = ({ scrollToTestimonial, scrollToHome, scrollToAbout, scrollToFaq }) => {
   return (
     <div className='navbar_background'>
       <div className='signIn'>
@@ -27,16 +27,16 @@ const Navbar = () => {
     backgroundColor={'#e8e8e8'}
   />
   <MenuList>
-    <MenuItem >
+    <MenuItem  onClick={scrollToHome} >
       HOME
     </MenuItem>
-    <MenuItem >
-    COLLEGES
+    <MenuItem onClick={scrollToFaq}>
+    FAQ
     </MenuItem>
-    <MenuItem >
+    <MenuItem onClick={scrollToTestimonial}>
       TESTIMONALS
     </MenuItem>
-    <MenuItem >
+    <MenuItem onClick={scrollToAbout} >
       ABOUT US
     </MenuItem>
     <MenuItem >
