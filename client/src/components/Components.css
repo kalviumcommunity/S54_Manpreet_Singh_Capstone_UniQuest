@@ -10,9 +10,52 @@
   width: 100vw;
   height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
   overflow: scroll;
+}
+.homepageimage {
+  width: 100vw;
+  height: 70vh;
+  background-size: cover;
+  background-image: url(./../assets/home.svg);
+  display: grid;
+  justify-content: center;
+
+}
+.homepagetagline{
+  width: 90%;
+height: 30%;
+flex-shrink: 0;
+  color: #FFF;
+text-align: center;
+font-family: Italiana;
+font-size: 4.3vmax;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.homepageshadow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 35vh;
+  margin-top: 10vmax;
+  border-radius: 957px;
+background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.00) 0%, rgba(0, 0, 0, 0.69) 0.01%, rgba(0, 0, 0, 0.70) 44.5%, rgba(0, 0, 0, 0.00) 100%);
+}
+.homepagesearchbar{
+  margin-top: 3vmax;
+}
+.homepageabout{
+  margin-top: 20vmax;
+}
+.homepagetestimonial{
+  margin-top: 5vmax;
+}
+.homepagefaq{
+  margin-left: 5vmax;
+  margin-top: 4vmax;
 }
 
 /* Faq Page Css  */
@@ -102,19 +145,11 @@ padding-top: 4vmax;
 }
 
 /* Search Bar Css  */
-
-.searchbar_background{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
 .searchbar_back{
   width: 70vw;
   height: 35vh;
   border-radius: 20px;
   background: #232323;
-  margin-top: 20vw;
 }
 .search_top{
   display: flex;
@@ -218,4 +253,30 @@ height: 35vh;
 flex-shrink: 0;
 padding-bottom: 10px;
 padding-bottom: 3vmin;
+  }
+
+  /* Testimonial Page */
+
+  .testimonialmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .testimonialheading{
+    color: #EEB572;
+text-align: center;
+font-family: "Saira Condensed";
+font-size: 72px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .testimonialline{
+    color: #FFF;
+font-family: Saira;
+font-size: 15px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
   }
