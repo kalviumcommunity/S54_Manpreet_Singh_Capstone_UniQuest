@@ -280,3 +280,97 @@ font-style: normal;
 font-weight: 200;
 line-height: normal;
   }
+
+/* Search Page  */
+.app .ps-sidebar-container {
+  background-color: #232323 !important;
+}
+.app .ps-sidebar-container:hover{
+  color: #EEB572;
+}
+h2 {
+  color: white;
+  font-family: "Fira Sans Condensed";
+  font-size: 30px;
+}
+.menu1 {
+  color: white;
+  margin-bottom: 40px;
+  font-family: "Fira Sans Condensed";
+  margin-top: 20px;
+}
+.menu1:hover{
+  color: #EEB572;
+  
+}
+.menu2 {
+  color: white;
+  font-family: "Fira Sans Condensed";
+  font-size: 20px;
+}
+h2 {
+  color: white;
+}
+
+/* Search Page  */
+.searchpagemain{
+  display: flex;
+  flex-direction: column;
+  margin-left: 8vmax;
+  margin-top: 3vmax;
+  flex-grow: 1;
+}
+.searchpageheading{
+  color: #FFF;
+font-family: "Saira Condensed";
+margin-top: 3vmax;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.searchpageitems{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+  overflow: scroll;
+}
+.itemgrid{
+  width: 22vmax;
+height: 25vmax;
+flex-shrink: 0;
+border-radius: 10px;
+background: #232323;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.itemimage img{
+  margin-top: 1.5vmax;
+  width: 20vmax;
+}
+.itemName{
+  color: #FFF;
+  align-self:normal ;
+font-family: Saira;
+margin-left: 1.8vmax;
+margin-top: 0.6vmax;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.itemDescription{
+  margin-top: 0.5vmax;
+  margin-left: 0.7vmax;
+  width: 19vmax;
+height: 4vmax;
+flex-shrink: 0;
+  color: #B5B5B5;
+  font-family: "Saira Condensed";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
