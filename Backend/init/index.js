@@ -3,6 +3,7 @@ const express = require('express');
 const University = require("../models/university");
 const User = require("../models/user");
 const Exam = require("../models/exams");
+const Testimonial = require("../models/testimonial");
 require("dotenv").config({ path: "../.env" });
 const app = express();
 
@@ -232,10 +233,24 @@ const exams = [
   }),
 ];
 
+const testimonial = [
+  new Testimonial({
+    username: "John Doe",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  }),
+  new Testimonial({
+    username: "Jane Smith",
+    content: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  }),
+  new Testimonial({
+    username: "Alice Johnson",
+    content: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+  }),
+]
 
 
 
-Exam.insertMany(exams)
+Testimonial.insertMany(testimonial)
   .then((docs)=>{
     console.log('====================================');
     console.log("Data Pushed");
