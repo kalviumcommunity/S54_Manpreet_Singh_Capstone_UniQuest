@@ -34,6 +34,22 @@ main()
     });
     res.send(returnData);
   });
+  router.get("/", async (req, res) => {
+    await University.find().then((data) => {
+      returnData = data;
+    });
+    res.send(returnData);
+  });
+
+  router.post("/", async (req, res) => {
+  
+    let insertData = new University(req.body);
+    insertData
+      .save()
+      .then(() => res.send(`Added Data`))
+      .catch((err) => res.status(500).send(err));
+  });
+  
 
   exam.get("/",async(req,res)=>{
     await Exam.find().then((data)=>{
