@@ -44,4 +44,22 @@ describe("User API", () => {
     expect(response.statusCode).toBe(200);
     expect(Array.isArray(response.body)).toBe(true);
   });
+  it("should return an error if required fields are missing", async () => {
+    const response = await request(app)
+      .post("/users")
+      .send({ name: "John Doe" }); 
+
+    expect(response.statusCode).toBe(500);
+    expect(response.text).toContain("email");
+  });
+
+  it("should return an error if there's a problem retrieving users", async () => {
+    jest.spyOn(User, "find").mockImplementationOnce(() => {
+      throw new Error("Database error");
+    });
+    const response = await request(app).get("/users");
+
+    expect(response.statusCode).toBe(500);
+    expect(response.text).toBe("Internal Server Error");
+  });
 });
