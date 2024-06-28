@@ -1,11 +1,11 @@
 /* Homepage CSS  */
-@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
-.background{
+.background {
   background-color: #000000;
   width: 100vw;
   height: 100vh;
@@ -20,21 +20,20 @@
   background-image: url(./../assets/home.svg);
   display: grid;
   justify-content: center;
-
 }
-.homepagetagline{
+.homepagetagline {
   width: 90%;
-height: 30%;
-flex-shrink: 0;
-  color: #FFF;
-text-align: center;
-font-family: Italiana;
-font-size: 4.3vmax;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  height: 30%;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Italiana;
+  font-size: 4.3vmax;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.homepageshadow{
+.homepageshadow {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,88 +41,91 @@ line-height: normal;
   height: 35vh;
   margin-top: 10vmax;
   border-radius: 957px;
-background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.00) 0%, rgba(0, 0, 0, 0.69) 0.01%, rgba(0, 0, 0, 0.70) 44.5%, rgba(0, 0, 0, 0.00) 100%);
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.69) 0.01%,
+    rgba(0, 0, 0, 0.7) 44.5%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
-.homepagesearchbar{
+.homepagesearchbar {
   margin-top: 3vmax;
 }
-.homepageabout{
+.homepageabout {
   margin-top: 20vmax;
 }
-.homepagetestimonial{
+.homepagetestimonial {
   margin-top: 5vmax;
 }
-.homepagefaq{
+.homepagefaq {
   margin-left: 5vmax;
   margin-top: 4vmax;
 }
 
 /* Faq Page Css  */
 
-.back{
+.back {
   display: flex;
   flex-direction: column;
   width: 90vw;
   height: 60vh;
   align-items: center;
-
 }
-.faqHeading{
-  color: #EEB572;
-text-align: center;
-font-family: "Saira Condensed", sans-serif;
-font-size: 72px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-.faqline1{
-  color: #FFF;
+.faqHeading {
+  color: #eeb572;
+  text-align: center;
   font-family: "Saira Condensed", sans-serif;
-font-size: 18px;
-font-style: normal;
-font-weight: 200;
-line-height: normal;
-letter-spacing: 1px;
-text-align: center;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-
+.faqline1 {
+  color: #fff;
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+}
 
 /* Accordion Css  */
 
-.accordions{
+.accordions {
   display: flex;
   flex-direction: column;
   gap: 2vmax;
 }
 
-.accordianmodal{
-padding-top: 4vmax;
+.accordianmodal {
+  padding-top: 4vmax;
 }
-
 
 /* Navbar Css  */
 
-.navbar_background{
+.navbar_background {
   background-color: #000000;
   width: 100vw;
   height: 7vh;
   display: flex;
   flex-direction: row;
 }
-.navbar_logo{
+.navbar_logo {
   width: 47vw;
   height: 7vh;
   display: flex;
   justify-content: end;
   align-items: center;
 }
-.navbar_logo img{
+.navbar_logo img {
   text-align: center;
   width: 30vw;
   height: 5vh;
 }
-.navbar_drawer{
+.navbar_drawer {
   width: 43vw;
   height: 7vh;
   display: flex;
@@ -131,12 +133,12 @@ padding-top: 4vmax;
   align-items: center;
 }
 
-.signIn{
+.signIn {
   width: 8vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FFF;
+  color: #fff;
   font-family: Inter;
   font-size: 18px;
   font-style: normal;
@@ -145,37 +147,37 @@ padding-top: 4vmax;
 }
 
 /* Search Bar Css  */
-.searchbar_back{
+.searchbar_back {
   width: 70vw;
   height: 35vh;
   border-radius: 20px;
   background: #232323;
 }
-.search_top{
+.search_top {
   display: flex;
   flex-direction: column;
   gap: 1.5vmax;
   padding-top: 2.5vw;
 }
-.search_top_heading{
-  color: #B5B5B5;
+.search_top_heading {
+  color: #b5b5b5;
   width: 15vw;
   text-align: center;
   font-family: "Fira Sans Condensed";
   font-size: 2.7vmin;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;;
+  line-height: normal;
 }
-.search_top_type{
+.search_top_type {
   margin-left: 7vmin;
-  color: #FFF;
-text-align: center;
-font-family: "Saira Condensed", sans-serif;
-font-size: 4vmin;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  color: #fff;
+  text-align: center;
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 4vmin;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 .searchbar_bottom {
   display: flex;
@@ -187,106 +189,106 @@ line-height: normal;
   font-family: "Saira Condensed", sans-serif;
 }
 
-.searchbar_dropdown{
-  width: 50vw ;
+.searchbar_dropdown {
+  width: 50vw;
   display: flex;
 }
-.searchbar_button{
+.searchbar_button {
   display: flex;
   margin-top: 3.5vh;
 }
 
 /* About Us Css  */
 
-.about_Background_image{
+.about_Background_image {
   width: 100vw;
   height: 55vh;
-    background: url(../assets//imagebackground.png) lightgray 50% / cover no-repeat;
-    opacity: 1;
-  }
-.about_background{
+  background: url(../assets//imagebackground.png) lightgray 50% / cover
+    no-repeat;
+  opacity: 1;
+}
+.about_background {
   width: 100vw;
   height: 55vh;
-  background: #232323 ;
-opacity: 0.9;
-  }
-  .about_section{
-    display: flex;
-    flex-direction: column;
-  }
-  .about_heading{
-    padding-top: 4vmin;
-    width: 30%;
-    color: #EEB572;
-text-align: center;
-font-family: "Saira Condensed", sans-serif;
-font-size: 3.7vmax;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-  }
+  background: #232323;
+  opacity: 0.9;
+}
+.about_section {
+  display: flex;
+  flex-direction: column;
+}
+.about_heading {
+  padding-top: 4vmin;
+  width: 30%;
+  color: #eeb572;
+  text-align: center;
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 3.7vmax;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 
-  .about_bottom{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 2.8vmax;
-  }
-  .aboutus_part{
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-    height: 70%;
-    color: #FFF;
-font-family: Saira;
-font-size: 2.2vmin;
-font-style: normal;
-font-weight: 300;
-line-height: normal;
-padding-bottom: 2vmin;
+.about_bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2.8vmax;
+}
+.aboutus_part {
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 70%;
+  color: #fff;
+  font-family: Saira;
+  font-size: 2.2vmin;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-bottom: 2vmin;
+}
+.about_image img {
+  width: 30vw;
+  height: 35vh;
+  flex-shrink: 0;
+  padding-bottom: 10px;
+  padding-bottom: 3vmin;
+}
 
-  }
-  .about_image img{
-    width: 30vw;
-height: 35vh;
-flex-shrink: 0;
-padding-bottom: 10px;
-padding-bottom: 3vmin;
-  }
+/* Testimonial Page */
 
-  /* Testimonial Page */
-
-  .testimonialmain{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .testimonialheading{
-    color: #EEB572;
-text-align: center;
-font-family: "Saira Condensed";
-font-size: 72px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-  }
-  .testimonialline{
-    color: #FFF;
-font-family: Saira;
-font-size: 15px;
-font-style: normal;
-font-weight: 200;
-line-height: normal;
-  }
+.testimonialmain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.testimonialheading {
+  color: #eeb572;
+  text-align: center;
+  font-family: "Saira Condensed";
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.testimonialline {
+  color: #fff;
+  font-family: Saira;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+}
 
 /* Search Page  */
 .app .ps-sidebar-container {
   background-color: #232323 !important;
 }
-.app .ps-sidebar-container:hover{
-  color: #EEB572;
+.app .ps-sidebar-container:hover {
+  color: #eeb572;
 }
 h2 {
   color: white;
@@ -299,9 +301,8 @@ h2 {
   font-family: "Fira Sans Condensed";
   margin-top: 20px;
 }
-.menu1:hover{
-  color: #EEB572;
-  
+.menu1:hover {
+  color: #eeb572;
 }
 .menu2 {
   color: white;
@@ -313,61 +314,84 @@ h2 {
 }
 
 /* Search Page  */
-.searchpagemain{
+h2 {
+  color: white;
+  font-family: "Fira Sans Condensed";
+  font-size: 30px;
+}
+
+.menuItem {
+  color: white;
+  margin-right: 20px;
+  font-family: "Fira Sans Condensed";
+  margin-top: 20px;
+}
+
+.menuItem:hover {
+  color: #eeb572;
+}
+
+.searchpagemain {
   display: flex;
   flex-direction: column;
-  margin-left: 8vmax;
+  margin-left: 22vmax;
   margin-top: 3vmax;
   flex-grow: 1;
 }
-.searchpageheading{
-  color: #FFF;
-font-family: "Saira Condensed";
-margin-top: 3vmax;
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+
+.searchpageheading {
+  color: #fff;
+  font-family: "Saira Condensed";
+  margin-top: 3vmax;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
-.searchpageitems{
+
+.searchpageitems {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin-top: 20px;
   overflow: scroll;
 }
-.itemgrid{
+
+.itemgrid {
   width: 22vmax;
-height: 25vmax;
-flex-shrink: 0;
-border-radius: 10px;
-background: #232323;
-display: flex;
-flex-direction: column;
-align-items: center;
+  height: 25vmax;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #232323;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.itemimage img{
+
+.itemimage img {
   margin-top: 1.5vmax;
   width: 20vmax;
 }
-.itemName{
-  color: #FFF;
-  align-self:normal ;
-font-family: Saira;
-margin-left: 1.8vmax;
-margin-top: 0.6vmax;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+
+.itemName {
+  color: #fff;
+  align-self: normal;
+  font-family: "Saira";
+  margin-left: 1.8vmax;
+  margin-top: 0.6vmax;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-.itemDescription{
+
+.itemDescription {
   margin-top: 0.5vmax;
   margin-left: 0.7vmax;
   width: 19vmax;
-height: 4vmax;
-flex-shrink: 0;
-  color: #B5B5B5;
+  height: 4vmax;
+  flex-shrink: 0;
+  color: #b5b5b5;
   font-family: "Saira Condensed";
   font-size: 10px;
   font-style: normal;
