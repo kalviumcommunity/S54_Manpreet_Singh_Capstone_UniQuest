@@ -7,6 +7,12 @@ const ExamSchema = new mongoose.Schema({
   description:{
     type: String, 
   },
+  examShouldGive :{
+    type:String,
+  },
+  examCanGive :{
+    type:String,
+  }
 });
 
 const Exam = mongoose.model("Exam",ExamSchema );

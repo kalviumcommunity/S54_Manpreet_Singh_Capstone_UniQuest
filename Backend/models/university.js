@@ -9,7 +9,7 @@ const universitySchema = new mongoose.Schema({
 
   },
   ranking: {
-    type: Object,
+    type: String,
   },
   contact: {
     type: Object,
