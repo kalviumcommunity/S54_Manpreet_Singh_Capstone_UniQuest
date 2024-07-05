@@ -4,6 +4,7 @@ import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 import HomeIcon from '@mui/icons-material/Home';
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
 import './Components.css';
+import logo from './../assets/logo.svg'
 
 const SidebarComponent = () => {
   return (
@@ -45,8 +46,11 @@ const SidebarComponent = () => {
         }
       }}
     >
+        <div className="menuItem">
+        <img src={logo} alt="" />
+      </div>
       <div className="menuItem">
-        <HomeIcon /> Home
+        <HomeIcon />  Home
       </div>
       <div className="menuItem">
         <QuestionMarkIcon /> FAQ

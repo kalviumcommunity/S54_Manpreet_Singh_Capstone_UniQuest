@@ -138,7 +138,7 @@ const data = [
     },
     eligibility: "For undergraduate programs (B.Tech), candidates need to qualify for the Joint Entrance Examination (JEE) Advanced conducted by IITs. Admission is based on JEE Advanced ranks. For postgraduate programs (M.Tech), candidates must have a valid GATE (Graduate Aptitude Test in Engineering) score. Admission is based on GATE scores and may include a written test and/or interview conducted by the institute.",
     placement: "According to the latest media reports, 22 students have bagged job offers of over INR 1 Crore per Annum packages, during the first round of placements 2023-24. A major bulk of the highest salaries have been received in the Research Development sector, for which the IIT Bombay average package so far stands at INR 36.90 LPA, which is almost 14% higher in comparison to last year. Furthermore, 63 students have accepted international offers in the first phase. A total of 1,340 job offers have been distributed among the 1,188 students placed. This includes 7 PSUs and 297 PPOs. The list of companies that were part of IIT Bombay placements 2024 includes Airbus, Apple, Google, Intel, and many others. Earlier placements reported the highest international package of INR 3.67 crore per annum, highest domestic package of INR 1.68 crore per annum, average package of INR 21.82 LPA, a placement rate of 82%, with 384 companies participating, 1898 offers, and 1104 internship offers. Top recruiters included Uber, Rubrik, and Millennium.",
-    examType: "JEE Advanced, GATE",
+    examType: "JEE Advanced",
   }),
   new University( {
     name: "Indian Institute of Technology Delhi (IIT Delhi)",
@@ -153,7 +153,7 @@ const data = [
     },
     eligibility: "For undergraduate programs (B.Tech), candidates need to qualify for the Joint Entrance Examination (JEE) Advanced conducted by IITs. Admission is based on JEE Advanced ranks. For postgraduate programs (M.Tech), candidates must have a valid GATE (Graduate Aptitude Test in Engineering) score. Admission is based on GATE scores and may include a written test and/or interview conducted by the institute.",
     placement: "IIT Delhi has an excellent placement record with top companies visiting the campus for recruitment. The highest package offered in the past has been INR 1.39 crore per annum. Major recruiters include Microsoft, Google, Facebook, and Intel. The average package for B.Tech students is around INR 16 LPA, and for M.Tech students, it is around INR 12 LPA. The institute also provides ample internship opportunities to students with stipends ranging from INR 20,000 to INR 1 lakh per month.",
-    examType: "JEE Advanced, GATE",
+    examType: "JEE Advanced",
   }),
   new University({
     name: "Indian Institute of Technology Madras (IIT Madras)",
@@ -168,7 +168,7 @@ const data = [
     },
     eligibility:  "For undergraduate programs (B.Tech), candidates need to qualify for the Joint Entrance Examination (JEE) Advanced conducted by IITs. Admission is based on JEE Advanced ranks.For postgraduate programs (M.Tech), candidates must have a valid GATE (Graduate Aptitude Test in Engineering) score. Admission is based on GATE scores and may include a written test and/or interview conducted by the institute.",
     placement: "IIT Madras has a dedicated Placement Office that facilitates the placement process for students. The institute has an excellent placement record, with a high percentage of students securing job offers from reputed companies during campus placements. According to media reports, 50% of the total students were placed during IIT Madras Phase 1 placement drive 2023-24. Further, the median package offered during IIT Madras placements 2024 stood at INR 19 LPA. Further, 19% increase in internship offers was witnessed for the batch of 2023-24 during IIT Madras placements 2024 as compared with previous year. Other than this, JP Morgan Chase, Texas Instruments and Adobe emerged as the top recruiters during IIT Madras placements 2024. Earlier, the 2023 placement drive concluded with 1,612 offers from more than 480 companies. The highest package offered to BTech and MTech students during IIT Madras placements 2023 stood at INR 1.31 crore per annum and INR 54.21 LPA, respectively. The median package offered to MS (Engineering Streams) and MSc (Science Stream) was INR 15 LPA and INR 9.62 LPA, respectively. Further, the IIT Madras highest package recorded for MA and MBA during placements 2023 was INR 26.57 LPA and INR 30.66 LPA, respectively. Moreover, the highest package offered to PhD students was INR 35.89 LPA. The top recruiters of placements 2023 were Amazon, Bajaj Auto Limited, EY India, Reliance, TCS, etc.",
-    examType: "JEE Advanced, GATE",
+    examType: "JEE Advanced",
   }), 
   new University({
     name: "Indian Institute of Technology Kharagpur (IIT Kharagpur)",
@@ -185,7 +185,7 @@ const data = [
        "For undergraduate programs (B.Tech), candidates need to qualify for the Joint Entrance Examination (JEE) Advanced conducted by IITs. Admission is based on JEE Advanced ranks.For postgraduate programs (M.Tech), candidates must have a valid GATE (Graduate Aptitude Test in Engineering) score. Admission is based on GATE scores and may include a written test and/or interview conducted by the institute.",
     placement: "The second phase of IIT Kharagpur placements 2024 has started from the first week of Jan and will continue till April 2024. According to media reports, a total of 700 placement offers were made on the first day of IIT Kharagpur placements 2023-24. Further, more than 19 international offers were received by students during IIT Kharagpur placements 2023-24. Importantly, 6 offers with package of more than INR 1 crore per annum were offered during IIT Kharagpur placements 2023-24. Over 61 companies offered various job roles to students, mainly in Finance, Banking, Analytics, Software, Core Engineering and Consulting sectors. Other than this, according to IIT Kharagpur Engineering NIRF report 2023, the median package offered during IIT Kharagpur BTech and MTech placements 2022 stood at INR 18.75 LPA and INR 13.50 LPA, respectively. Further, as per the Management NIRF report 2023, the median package offered during IIT Kharagpur MBA placements 2022 stood at INR 18.08 LPA. Earlier, as per the official placement brochure, 1,821 students were placed during the 2023 drive. BOSCH, Airbus, Accenture, Oracle, and many other renowned companies participated in IIT Kharagpur placements 2023. According to some media reports, the institute concluded its first phase of the placement drive 2023. A total of 300 companies participated in the placement drive and more than 1,600 offers were secured by the students. Apart from this, a total of 45 international offers have been grabbed in the first phase of IIT KGP placements 2023. The institute registered 48 offers in the CTC range of Rs 50 lakh to Rs 2.64 crore. Major giants who participated in the IIT Kharagpur placements 2023 were Excel, Google, Microsoft, Qualcomm, etc. The IIT Kharagpur highest package recorded till now is above INR 2.68 crore per annum. Additionally, 900 internship offers were grabbed from 140 companies that were part of IIT Kharagpur internships 2022."
     ,
-    examType: "JEE Advanced, GATE",
+    examType: "JEE Advanced",
   }),
   new University({
     name: "Indian Institute of Technology (IIT) Ropar",
@@ -199,7 +199,7 @@ const data = [
     },
     eligibility: "For undergraduate programs (B.Tech), candidates need to qualify for the Joint Entrance Examination (JEE) Advanced conducted by IITs. Admission is based on JEE Advanced ranks. For postgraduate programs (M.Tech), candidates must have a valid GATE (Graduate Aptitude Test in Engineering) score. Admission is based on GATE scores and may include a written test and/or interview conducted by the institute.",
     placement: "IIT Ropar has a dedicated Career Development and Corporate Relations Center that facilitates the placement process for students. The institute has been achieving remarkable placement records, with a high percentage of students securing job offers from reputed companies during campus placements. The placement process typically includes pre-placement talks, written tests, group discussions, technical and HR interviews, and final job offers. IIT Ropar placements 2023-24 (phase 2) has started on the first week of on Jan, 2024 and will continue till April 2024. Earlier, the average package offered during IIT Ropar BTech and MTech / MSc placements 2023 stood at INR 20.99 LPA and INR 13.31 LPA, respectively. Apart from this, the placement rate recorded during IIT Ropar BTech and MTech / MSc placements 2023 was 82.21% and 56.44%, respectively. Other than this, according to IIT Ropar NIRF report 2023, the median package offered during IIT Ropar BTech and MTech placements 2022 stood at INR 17.14 LPA and INR 10 LPA, respectively.",
-    examType: "JEE Advanced, GATE"
+    examType: "JEE Advanced"
 }),
 new University({
     name: "Indian Institute of Technology (IIT) Roorkee",
@@ -213,7 +213,7 @@ new University({
     },
     eligibility: "For undergraduate programs (B.Tech), candidates need to qualify for the Joint Entrance Examination (JEE) Advanced conducted by IITs. Admission is based on JEE Advanced ranks. For postgraduate programs (M.Tech), candidates must have a valid GATE (Graduate Aptitude Test in Engineering) score. Admission is based on GATE scores and may include a written test and/or interview conducted by the institute.",
     placement: "IIT Roorkee has a dedicated Career Development Center (CDC) that facilitates the placement process for students. The institute has an excellent placement record, with a high percentage of students securing job offers from reputed companies during campus placements. According to media reports, 23 international and in total 802 offers were grabbed during IIT Roorkee 2024 phase-1 placements. Databricks offered a salary package of INR 2.05 crore per annum to a student during the first phase of IIT Roorkee placements 2023-24. Further, a total of 172 companies visited the campus during IIT Roorkee placements 2024. Earlier, the highest and average package offered during IIT Roorkee MBA placements 2023 stood at INR 27.94 LPA and INR 18.34 LPA, respectively. Further, the placement rate recorded during IIT Roorkee MBA placements 2023 was 100%. Apart from this, the median and lowest package offered during IIT Roorkee MBA placements 2023 stood at INR 18.09 LPA and INR 11.60 LPA, respectively.",
-    examType: "JEE Advanced, GATE"
+    examType: "JEE Advanced"
 }),
 new University({
     name: "Indian Institute of Technology (IIT) Hyderabad",
@@ -227,7 +227,7 @@ new University({
     },
     eligibility: "For undergraduate programs (B.Tech), candidates need to qualify for the Joint Entrance Examination (JEE) Advanced conducted by IITs. Admission is based on JEE Advanced ranks. For postgraduate programs (M.Tech), candidates must have a valid GATE (Graduate Aptitude Test in Engineering) score. Admission is based on GATE scores and may include a written test and/or interview conducted by the institute.",
     placement: "IIT Hyderabad has a dedicated Career Development Services (CDS) that facilitates the placement process for students. The institute has been achieving remarkable placement records, with a high percentage of students securing job offers from reputed companies during campus placements. IIT placements drive 2023-24 started on Dec 1, 2023 and will continue till April, 2024. Earlier, the highest and average package offered during IIT Hyderabad placements 2023 stood at INR 63.78 LPA and INR 20.07 LPA, respectively. Further, the placement rate recorded during IIT Hyderabad placements 2023 was 74.90%. Other than this, a total of 335 companies participated and 621 offers were made during IIT Hyderabad placements 2023.",
-    examType: "JEE Advanced, GATE"
+    examType: "JEE Advanced"
 }),
 new University({
     name: "Birla Institute of Technology and Science (BITS) Pilani",
@@ -283,7 +283,7 @@ new University({
   },
   eligibility: "For undergraduate programs (MBBS), candidates need to qualify for the AIIMS Entrance Examination conducted by AIIMS, New Delhi.For postgraduate programs (MD/MS/MDS), candidates must have a valid NEET PG (National Eligibility cum Entrance Test for Post-Graduation) score. Admission is based on NEET PG scores and may include a written test and/or interview conducted by the institute.",
   placement: "AIIMS Delhi offers internship and residency programs as part of its undergraduate and postgraduate medical education. Graduates from AIIMS Delhi have excellent career prospects and are highly sought after by hospitals, research institutions, and healthcare organizations in India and abroad. According to AIIMS Delhi NIRF report 2023, the median package offered during AIIMS Delhi MBBS placements 2020 stood at INR 18 LPA. Further, the placement rate recorded during AIIMS Delhi MBBS placements 2020 was 100%. Apart from this, the median package offered during AIIMS Delhi UG 3-year, UG 4-year, and PG 2-year placements 2022 stood at INR 12 LPA, INR 25 LPA, and INR 18 LPA, respectively. Further, the median package offered during AIIMS Delhi PG 3-year placements 2022 stood at INR 40 LPA.",
-  examType: "AIIMS Entrance Examination, NEET PG"
+  examType: "NEET"
 }),new University({
   name: "Armed Forces Medical College (AFMC), Pune",
   description: "Armed Forces Medical College (AFMC) Pune is a premier medical college located in Pune, Maharashtra, India. Established in 1948, it is affiliated with the Maharashtra University of Health Sciences (MUHS) and offers undergraduate and postgraduate programs in medicine, nursing, and allied healthcare fields. The college is operated by the Indian Armed Forces and is known for its rigorous academic curriculum, military training, and commitment to public health service.",
@@ -296,7 +296,7 @@ new University({
   },
   eligibility: "For undergraduate programs (MBBS), candidates need to qualify for the NEET UG (National Eligibility cum Entrance Test for Undergraduate) conducted by the National Testing Agency (NTA). AFMC has its own entrance examination for admission to its undergraduate program, which includes a written test, interview, and medical examination conducted by the institute. For postgraduate programs (MD/MS), candidates must have a valid NEET PG (National Eligibility cum Entrance Test for Post-Graduation) score. Admission is based on NEET PG scores and may include a written test and/or interview conducted by the institute.",
   placement: "AFMC Pune offers internship and residency programs as part of its undergraduate and postgraduate medical education. Graduates from AFMC Pune have excellent career prospects and serve in various capacities within the Indian Armed Forces as well as in public and private healthcare organizations.",
-  examType: "NEET UG, NEET PG, AFMC Entrance Examination"
+  examType: "NEET"
 }),
 new University({
   name: "Sir JJ College of Architecture, Mumbai",
@@ -353,7 +353,7 @@ new University({
   },
   eligibility: "For undergraduate programs in hotel management (B.Sc. Hospitality and Hotel Administration), candidates need to qualify for the Joint Entrance Examination (JEE) conducted by the National Testing Agency (NTA) followed by centralized counseling conducted by NCHMCT. For postgraduate programs in hotel management, candidates must meet the eligibility criteria specified by IHM Mumbai, which may include academic qualifications, entrance exam scores, and/or relevant work experience.",
   placement: "IHM Mumbai has a dedicated Training and Placement Cell that facilitates internships and placement opportunities for students. The institute has strong industry connections and collaborations with leading hotel chains, hospitality companies, and catering establishments, providing students with diverse career opportunities in the field of hotel management and hospitality. IHM Mumbai placement report 2023 is yet to be released on the official website. Once it is released, the placement details for the Class of 2023 will be updated here. However, IHM Mumbai has successfully concluded its placement drive for the batch passed out in 2021. As per the annual report 2021, the highest and minimum package offered during IHM Mumbai placement 2021 was INR 3.12 LPA and INR 1.20 LPA, respectively. Further, 20 recruiters participated in the placement process and placed 119 students in various job profiles. The top recruiters of IHM Mumbai in 2021 included Domino’s, Kouzina, Growisto, Taj Santacruz, Le Meridien, The Oberoi, etc.",
-  examType: "NCHM JEE"
+  examType: "NCHMCT JEE "
 }),
 new University({
   name: "Institute of Hotel Management (IHM), Delhi",
@@ -367,7 +367,7 @@ new University({
   },
   eligibility: "For undergraduate programs in hotel management (B.Sc. Hospitality and Hotel Administration), candidates need to qualify for the Joint Entrance Examination (JEE) conducted by the National Testing Agency (NTA) followed by centralized counseling conducted by NCHMCT. For postgraduate programs in hotel management, candidates must meet the eligibility criteria specified by IHM Delhi, which may include academic qualifications, entrance exam scores, and/or relevant work experience.",
   placement: "IHM Delhi has a dedicated Training and Placement Cell that facilitates internships and placement opportunities for students. The institute has strong industry connections and collaborations with leading hotel chains, hospitality companies, and catering establishments, providing students with diverse career opportunities in the field of hotel management and hospitality. IHM Pusa placement guidelines 2023-24 is released. Candidates can go through the guidelines here - IHM-Pusa-Placement-GuideLines-2023-24. Further, IHM Pusa has released the placement report 2023 for MSc HA and BSc HHA courses. The highest and average package offered during IHM Pusa placements 2023 stood at INR 9 LPA and INR 3.81 LPA, respectively. Further, a total of 54 companies visited the campus and 275 students were placed during IHM Pusa placements 2023.",
-  examType: "NCHM JEE"
+  examType: "NCHMCT JEE "
 }),
 new University( {
   name: "Institute of Hotel Management (IHM), Bangalore",
@@ -381,7 +381,7 @@ new University( {
   },
   eligibility: "For undergraduate programs in hotel management (B.Sc. Hospitality and Hotel Administration), candidates need to qualify for the Joint Entrance Examination (JEE) conducted by the National Testing Agency (NTA) followed by centralized counseling conducted by NCHMCT. For postgraduate programs in hotel management, candidates must meet the eligibility criteria specified by IHM Bangalore, which may include academic qualifications, entrance exam scores, and/or relevant work experience.",
   placement: "IHM Bangalore has a dedicated Training and Placement Cell that facilitates internships and placement opportunities for students. The institute has strong industry connections and collaborations with leading hotel chains, hospitality companies, and catering establishments, providing students with diverse career opportunities in the field of hotel management and hospitality.",
-  examType: "NCHM JEE"
+  examType: "NCHMCT JEE "
 }),
 new University({
   name: "University of Delhi, Delhi",
@@ -423,7 +423,7 @@ new University({
   },
   eligibility: "For undergraduate programs, candidates need to qualify for the Undergraduate Entrance Test (UET) conducted by BHU. For postgraduate programs, candidates need to qualify for the Postgraduate Entrance Test (PET) conducted by BHU.",
   placement: "BHU has a dedicated Placement Cell that facilitates internships and placement opportunities for students. The university has strong industry connections and collaborations with leading companies and organizations, providing students with diverse career opportunities. The highest and average package offered during the 2023 placement season were INR 14 LPA and INR 5.8 LPA, respectively. Top recruiters included TCS, Infosys, Wipro, Accenture, and ICICI Bank.",
-  examType: "CUET(UG)"
+  examType: "CUET (UG)"
 }),
 new University({
   name: "National Academy of Legal Studies and Research (NALSAR), Hyderabad",
@@ -479,7 +479,7 @@ new University({
   },
   eligibility: "For undergraduate programs (B.Des), candidates need to qualify for the NIFT Entrance Exam conducted by the National Institute of Fashion Technology. For postgraduate programs (M.Des), candidates must meet the eligibility criteria specified by NIFT Delhi, which may include academic qualifications, NIFT Entrance Exam scores, and/or relevant work experience.",
   placement: "NIFT Delhi has a dedicated Placement Cell that facilitates internships and placement opportunities for students. The institute has strong industry connections with leading fashion brands, design houses, and retail companies, offering students diverse career opportunities in the fashion and apparel industry. Detailed placement reports for recent years are available on the institute's official website.",
-  examType:"NIFT"
+  examType:"NIFT Entrance"
 }),
 new University({
   name: "National Institute of Fashion Technology (NIFT), Bengaluru",
@@ -493,7 +493,7 @@ new University({
   },
   eligibility: "For undergraduate programs (B.Des), candidates need to qualify for the NIFT Entrance Exam conducted by the National Institute of Fashion Technology. For postgraduate programs (M.Des), candidates must meet the eligibility criteria specified by NIFT Bengaluru, which may include academic qualifications, NIFT Entrance Exam scores, and/or relevant work experience.",
   placement: "NIFT Bengaluru has a dedicated Training and Placement Cell that coordinates internships and placements for students. The institute has strong ties with leading fashion brands, design firms, and retail companies, providing students with extensive opportunities for internships and job placements. Detailed placement reports are available on the institute's official website.",
-  examType:"NIFT"
+  examType:"NIFT Entrance"
 }),
 new University({
   name: "National Institute of Fashion Technology (NIFT), Chennai",
@@ -507,7 +507,7 @@ new University({
   },
   eligibility: "For undergraduate programs (B.Des), candidates need to qualify for the NIFT Entrance Exam conducted by the National Institute of Fashion Technology. For postgraduate programs (M.Des), candidates must meet the eligibility criteria specified by NIFT Chennai, which may include academic qualifications, NIFT Entrance Exam scores, and/or relevant work experience.",
   placement: "NIFT Chennai has a dedicated Placement Cell that assists students in securing internships and placements. The institute has strong industry connections with fashion houses, apparel brands, and retail companies, offering students ample opportunities for internships and job placements. Detailed placement reports are available on the institute's official website.",
-  examType:"NIFT"
+  examType:"NIFT Entrance"
 }),
 new University({
   name: "Vellore Institute of Technology (VIT), Vellore",
