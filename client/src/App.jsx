@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import SearchBar from './components/SearchBar'
 import AboutUs from './components/AboutUs'
 import SearchPage from './components/SearchPage'
+import ExamList from './components/ExamList'
 // import Testimonials from './components/Testimonial'
 const App = () => {
   return (
@@ -15,6 +16,8 @@ const App = () => {
       {/* <SearchBar/> */}
       {/* <Testimonials/> */}
       <SearchPage/>
+      {/* <ExamList/> */}
+      
     </div>
   )
 }

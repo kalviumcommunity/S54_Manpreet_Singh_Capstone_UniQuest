@@ -16,7 +16,7 @@ import logo from "../assets/logo.svg";
 
 const Footer = () => {
   return (
-    <Box p={{ base: 5, md: 8 }} bg={'#232323'} maxW="5xl" marginInline="auto">
+    <Box p={{ base: 5, md: 8 }} bg={'#232323'} width={'100vw'} marginInline="auto">
       <Stack
         spacing={{ base: 8, md: 0 }}
         justifyContent="space-between"
@@ -26,7 +26,7 @@ const Footer = () => {
           <Link href="#" isExternal>
             <Image w="300px" src={logo} alt="TemplatesKart" />
           </Link>
-          <Text mt={2} color="gray.500" fontSize="md">
+          <Text mt={2} color="white" fontSize="md">
             Make the student life easier
           </Text>
         </Box>
@@ -36,10 +36,10 @@ const Footer = () => {
           justifyContent={{ sm: "space-between", md: "normal" }}
         >
           <VStack spacing={4} alignItems="flex-start">
-            <Text fontSize="md" fontWeight="bold">
+            <Text fontSize="md" fontWeight="bold" color="white">
               About
             </Text>
-            <VStack spacing={2} alignItems="flex-start" color="gray.500">
+            <VStack spacing={2} alignItems="flex-start" color="white">
               <CustomLink scrollTo="home">Homepage</CustomLink>
               <CustomLink scrollTo="about">About Us</CustomLink>
               <CustomLink scrollTo="faq">FAQ</CustomLink>
@@ -56,7 +56,7 @@ const Footer = () => {
         spacing={3}
         justifyContent="space-between"
       >
-        <Text fontSize="md">
+        <Text fontSize="md" color="white" >
           Built by{" "}
           <Link
             href="https://github.com/manpreetsingh04m/manpreetsingh04m"

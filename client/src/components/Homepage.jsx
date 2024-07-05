@@ -6,6 +6,7 @@ import AboutUs from './AboutUs'
 import Testimonial from './Testimonial'
 import Navbar from './Navbar'
 import SearchBar from './SearchBar'
+import Footer from './Footer'
 const Homepage = () => {
   const testimonialRef = useRef(null);
   const homeRef = useRef(null);
@@ -55,6 +56,9 @@ const Homepage = () => {
       </div>
       <div className='homepagefaq' ref={faqRef}>
       <Faq/> 
+      </div>
+      <div className='homepagefooter' >
+      <Footer/> 
       </div>
     </div>
   )

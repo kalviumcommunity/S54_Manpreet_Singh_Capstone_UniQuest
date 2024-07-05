@@ -4,6 +4,7 @@ const University = require("../models/university");
 const User = require("../models/user");
 const Exam = require("../models/exams");
 const Testimonial = require("../models/testimonial");
+const Faq = require("../models/faq");
 require("dotenv").config({ path: "../.env" });
 const app = express();
 
@@ -923,9 +924,39 @@ const testimonial = [
   }),
 ]
 
+const FAQS = [
+  new Faq ({
+    question: "What is the purpose of this website?",
+    answer: "This website is designed to help students and parents find the best universities and exams for their needs."
+  }),
+  new Faq ({
+    question: "How can I contact the admin?",
+    answer: "Contact details are given in the footer of the website."
+  }),
+new Faq ({
+  question: "What are the eligibility criteria for the exams listed?",
+  answer: "Eligibility criteria vary for each exam. Please refer to the specific exam's official website for detailed information."
+}),
+new Faq ({
+  question: "Can international students apply for these exams?",
+  answer: "Yes, international students can apply for certain exams, but they should check the specific exam guidelines on the official website."
+}),
+new Faq ({
+  question: "Where can I find study materials for these exams?",
+  answer: "Study materials can be found on the official exam websites, educational bookstores, and through various online platforms that offer courses and resources."
+}),
+new Faq ({
+  question: "How do I register for an exam?",
+  answer: "Registration can be completed on the official exam website. Make sure to register before the deadline to avoid any last-minute issues."
+}),
+new Faq ({
+  question: "What is the fee structure for the exams?",
+  answer: "The fee structure varies for each exam. Detailed information about fees can be found on the respective exam's official website."
+})
+]
 
 
-University.insertMany(data)
+Faq.insertMany(FAQS)
   .then((docs)=>{
     console.log('====================================');
     console.log("Data Pushed");
