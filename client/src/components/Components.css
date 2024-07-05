@@ -4,6 +4,7 @@
 * {
   margin: 0;
   padding: 0;
+  scrollbar-width: none;
 }
 .background {
   background-color: #000000;
@@ -12,6 +13,8 @@
   display: flex;
   flex-direction: column;
   overflow: scroll;
+  align-items: center; /* Center align all child components */
+  justify-content: space-between; 
 }
 .homepageimage {
   width: 100vw;
@@ -62,6 +65,10 @@
   margin-left: 5vmax;
   margin-top: 4vmax;
 }
+.homepagefooter{
+  width: 100vw;
+  padding-top: 5vmax;
+}
 
 /* Faq Page Css  */
 
@@ -97,7 +104,8 @@
 .accordions {
   display: flex;
   flex-direction: column;
-  gap: 2vmax;
+  gap: 2vmax; /* Ensure consistent spacing */
+  padding: 2vmax; /* Add padding for better spacing from container edges */
 }
 
 .accordianmodal {
@@ -399,4 +407,43 @@ h2 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+/* University-List */
+.university-component{
+  overflow: scroll;
+}
+.university-image >img{
+  height: 35vh;
+  width: 75vmax
+  /* background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 99%, rgba(2,0,36,1) 100%); */
+
+}
+.university-name{
+  padding-left: 5vmax;
+  font-weight: 600;
+  font-size: 3vmax;
+  position: relative;
+  top:-2.4vmax;
+  color: #FFF;
+font-family: "Saira Condensed";
+}
+.desc{
+  color: #FFF;
+  font-family: "Saira Condensed";
+  padding-left: 5vmax;
+  width: 70vmax;
+}
+.uni-heading{
+  color: #EEB572;
+  font-family: "Saira Condensed";
+  font-weight: 700;
+  padding-left: 5vmax;
+  font-size: 3vmax;
+  margin-bottom: 1.8vmax;
+}
+.contacts{
+  color: #FFF;
+  font-family: "Saira Condensed";
+  padding-left: 5vmax;
 }
