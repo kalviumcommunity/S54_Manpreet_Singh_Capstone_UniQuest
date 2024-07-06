@@ -22,7 +22,7 @@ export default function ClerkAuth() {
           email: userEmail,
         };
         console.log(userdata);
-        const result = await axios.post("http://localhost:8002/user", userdata);
+        const result = await axios.post("https://s54-manpreet-singh-capstone-uni-manpreet-singh-aroras-projects.vercel.app/user", userdata);
         console.log("result: ", result);
       } catch (error) {
         console.error("Error while signing in:", error);

@@ -14,7 +14,7 @@ const SearchPage = () => {
   const handleMoreInfoClick = async (universityId) => {
     try {
     // Corrected the use of template literals below
-    const response = await fetch(`http://localhost:8002/university/${universityId}`);
+    const response = await fetch(`https://s54-manpreet-singh-capstone-uni-manpreet-singh-aroras-projects.vercel.app/university/${universityId}`);
     if (!response.ok) {
     throw new Error('Network response was not ok');
     }

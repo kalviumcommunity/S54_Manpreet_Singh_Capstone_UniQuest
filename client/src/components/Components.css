@@ -334,6 +334,7 @@ h2 {
   font-family: "Fira Sans Condensed";
   margin-top: 4vh;
   gap: 4vh;
+  cursor: pointer;
 }
 
 .menuItem:hover {

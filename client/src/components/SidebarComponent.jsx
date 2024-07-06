@@ -2,9 +2,12 @@ import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 import HomeIcon from '@mui/icons-material/Home';
-import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
+import SearchIcon from '@mui/icons-material/Search';
+import ExploreIcon from '@mui/icons-material/Explore';
 import './Components.css';
 import logo from './../assets/logo.svg'
+import { Link } from "react-router-dom";
+
 
 const SidebarComponent = () => {
   return (
@@ -49,12 +52,15 @@ const SidebarComponent = () => {
         <div className="menuItem">
         <img src={logo} alt="" />
       </div>
-      <div className="menuItem">
-        <HomeIcon />  Home
-      </div>
-      <div className="menuItem">
-        <QuestionMarkIcon /> FAQ
-      </div>
+      <Link to="/" className="menuItem">
+      <HomeIcon />  Home
+      </Link>
+      <Link to="/search" className="menuItem">
+      <SearchIcon /> Search
+      </Link>
+      <Link to="/examlist" className="menuItem">
+        <ExploreIcon /> Exams
+      </Link>
     </Menu>
   );
 };

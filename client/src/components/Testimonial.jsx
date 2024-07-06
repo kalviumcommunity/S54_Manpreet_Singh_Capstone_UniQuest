@@ -9,7 +9,7 @@ const Testimonials = () => {
   // const someContext = useContext(MyContext);
 
   useEffect(() => {
-    fetch('http://localhost:8002/testimonial')
+    fetch('https://s54-manpreet-singh-capstone-uni-manpreet-singh-aroras-projects.vercel.app/testimonial')
       .then(response => response.json())
       .then(data => setTestimonials(data))
       .catch(error => console.error('Error fetching testimonials:', error));
