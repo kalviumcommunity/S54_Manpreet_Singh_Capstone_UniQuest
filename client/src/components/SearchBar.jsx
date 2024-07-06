@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Components.css";
 import { Button, FormControl, FormLabel, Select } from "@chakra-ui/react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const SearchBar = ({  setData, setSelectedExamType }) => {
   const [exams, setExams] = useState([]);
@@ -14,7 +15,7 @@ const SearchBar = ({  setData, setSelectedExamType }) => {
 
   const handleSearch = async () => {
     try {
-      const response = await axios.get("http://localhost:8002/university", {
+      const response = await axios.get("https://s54-manpreet-singh-capstone-uni-manpreet-singh-aroras-projects.vercel.app/university", {
         params: { exam: selectedExam }
       });
       setData(response.data);
@@ -26,7 +27,7 @@ const SearchBar = ({  setData, setSelectedExamType }) => {
   useEffect(() => {
     const fetchExams = async () => {
       try {
-        const response = await axios.get("http://localhost:8002/exams");
+        const response = await axios.get("https://s54-manpreet-singh-capstone-uni-manpreet-singh-aroras-projects.vercel.app/exams");
         setExams(response.data);
       } catch (error) {
         console.error("Error fetching exams:", error);
@@ -63,6 +64,7 @@ const SearchBar = ({  setData, setSelectedExamType }) => {
             </FormControl>
           </div>
           <div className="searchbar_button">
+            <Link to="/search">
             <Button 
               backgroundColor={'#EEB572'} 
               width={'8vw'} 
@@ -75,6 +77,7 @@ const SearchBar = ({  setData, setSelectedExamType }) => {
             >
               SEARCH
             </Button>
+            </Link>
           </div>
         </div>
       </div>

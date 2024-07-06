@@ -24,7 +24,7 @@ const Footer = () => {
       >
         <Box maxW="300px">
           <Link href="#" isExternal>
-            <Image w="300px" src={logo} alt="TemplatesKart" />
+            <Image w="300px" src={logo} alt="Uniquest" />
           </Link>
           <Text mt={2} color="white" fontSize="md">
             Make the student life easier
