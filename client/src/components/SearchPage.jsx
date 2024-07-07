@@ -46,7 +46,7 @@ const SearchPage = () => {
               {searchResults.filter(university => university.examType === selectedExamType).map((university) => (
                 <div key={university._id} className="itemgrid">
                   <div className="itemimage">
-                    <img src={image1} alt="University" />
+                    <img src={university.image2} alt="University" />
                   </div>
                   <div className="itemName">{university.name}</div>
                   <div className="itemDescription">{university.description}</div>
