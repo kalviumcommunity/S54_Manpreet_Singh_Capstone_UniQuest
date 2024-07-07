@@ -812,100 +812,113 @@ const exams = [
     name: "JEE Main",
     description: "A national level entrance exam for admission to undergraduate engineering programs in NITs, IIITs, and other centrally funded technical institutions.",
     examShouldGive: null, // JEE Main does not require any specific exam before it
-    examCanGive: "JEE Advanced" // Can give JEE Advanced after JEE Main
-  }),
+    examCanGive: "JEE Advanced", // Can give JEE Advanced after JEE Main
+    image: "https://www.indianuniversities.net/assets/uploadFiles/study/IMG_20220221_170342.png"
+    }),
   new Exam({
     name: "JEE Advanced",
     description: "The second stage of the Joint Entrance Examination, granting admission to the Indian Institutes of Technology (IITs) and some other prestigious engineering colleges.",
     examShouldGive: "JEE Main", // Should give JEE Advanced after JEE Main
-    examCanGive: null // No specific exam required after JEE Advanced
+    examCanGive: null, // No specific exam required after JEE Advanced
+    image: "https://www.careerguide.com/career/wp-content/uploads/2023/05/JEE-Advance-Logo-300x228.webp"
   }),
   new Exam({
-    name: "BITSAT (Birla Institute of Technology and Science Admission Test)",
+    name: "BITSAT",
     description: "Conducted for admission to undergraduate engineering programs at BITS Pilani, Goa, and Hyderabad campuses.",
     examShouldGive: null, // BITSAT does not require any specific exam before it
-    examCanGive: "JEE Main" // No specific exam required after BITSAT
+    examCanGive: "JEE Main", // No specific exam required after BITSAT
+    image: "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/BITS_Pilani-Logo.svg/640px-BITS_Pilani-Logo.svg.png"
   }),
   new Exam({
-    name: "NEET (National Eligibility and Entrance Test)",
+    name: "NEET",
     description: "An entrance examination for admission to undergraduate medical and dental courses in government and private medical colleges in India.",
     examShouldGive: null, // NEET does not require any specific exam before it
-    examCanGive:null  
-
+    examCanGive:null,
+    image: "https://www.seshaalinguatech.com/wp-content/uploads/2018/05/neet.jpg"
   }),
   new Exam({
-    name: "NATA (National Aptitude Test in Architecture)",
+    name: "NATA",
     description: "Required for admission to undergraduate architecture programs across participating institutions in India.",
     examShouldGive: null, // NATA does not require any specific exam before it
-    examCanGive:null  
-
+    examCanGive:null,  
+    image: "https://seeklogo.com/images/N/nata-nata-logo-55C670AC62-seeklogo.com.png"
   }),
   new Exam({
-    name: "NCHMCT-JEE (National Council for Hotel Management & Catering Technology’s Joint Entrance Exam)",
+    name: "NCHMCT JEE ",
     description: "Entrance exam for admission to undergraduate hospitality and hotel management courses at NCHMCT-affiliated institutions.",
     examShouldGive: null, // NCHMCT-JEE does not require any specific exam before it
-    examCanGive:null  
+    examCanGive:null,
+    image: "https://www.kwteducation.com/wp-content/uploads/2023/02/National-Council-for-Hotel-Management-and-Catering-Technology-NCHMCT.png"
 
   }),
   new Exam({
-    name: "CUET (UG) (Common University Entrance Test)",
+    name: "CUET (UG)",
     description: "Conducted for admission to undergraduate programs at central universities across India.",
     examShouldGive: null, // CUET (UG) does not require any specific exam before it
-    examCanGive:null  
+    examCanGive:null,
+    image:"https://lh5.googleusercontent.com/proxy/eo-tVW7fOgl3m0hp5dylLrmWgdWBVuOhgNcPfl-uKg4Y_CrYUk4KKXnw3s_jBxiVWA3_tgUFezaU8DMs24KkDGFvC5w0"  
 
   }),
   new Exam({
-    name: "LSAT India (Law School Admission Test–India)",
+    name: "LSAT India",
     description: "For admission to undergraduate law programs in participating law schools in India.",
     examShouldGive: null, // LSAT India does not require any specific exam before it
-    examCanGive:null  
+    examCanGive:null,
+    image:"https://static.wixstatic.com/media/1575b5_cb8a0cf0daa7469b9df69762013001eb~mv2.png/v1/fill/w_672,h_432,al_c,lg_1,q_85/1575b5_cb8a0cf0daa7469b9df69762013001eb~mv2.png"
 
   }),
   new Exam({
-    name: "NIFT Entrance (National Institute of Fashion Technology)",
+    name: "NIFT Entrance",
     description: "Entrance exam for admission to undergraduate programs in fashion and design at NIFT campuses.",
     examShouldGive: null, // NIFT Entrance does not require any specific exam before it
-    examCanGive:null  
+    examCanGive:null,
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjQfQUGUNetP70ClWIgXyj5MJUWy9moTtSdQ&s"
 
   }),
   new Exam({
-    name: "VITEEE (Vellore Institute of Technology Engineering Entrance Examination)",
+    name: "VITEEE",
     description: "Conducted for admission to undergraduate engineering programs at Vellore Institute of Technology (VIT) campuses.",
     examShouldGive: null, // VITEEE does not require any specific exam before it
-    examCanGive:null  
+    examCanGive:null,
+    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8rP75x2yM5VFpH8cD3C_PX6DOdwmrmp1yrA&s"
 
   }),
   new Exam({
-    name: "IIMC Entrance Exam (Indian Institute of Mass Communication)",
+    name: "IIMC",
     description: "For admission to various postgraduate diploma courses in journalism and mass communication at Indian Institute of Mass Communication.",
     examShouldGive: null, // IIMC Entrance Exam does not require any specific exam before it
-    examCanGive:null  
+    examCanGive:null,
+    image:"https://yt3.googleusercontent.com/YpK2wL57orxiGwd1GQHSgcrFP0QtNSJnXYUyXp7DFc5BrNNDnIPSZGT7MTDhG9wROL8HjaKk5g=s900-c-k-c0x00ffffff-no-rj"
 
   }),
   new Exam({
-    name: "GATE (Graduate Aptitude Test in Engineering)",
+    name: "GATE",
     description: "A national level examination for admission to postgraduate programs in engineering and technology across India.",
     examShouldGive: null, // GATE does not require any specific exam before it
-    examCanGive:null  
+    examCanGive:null,
+    image:"https://www.educationkey.in/wp-content/uploads/2022/11/gate.png"
   }),
   new Exam({
-    name: "MBA (Master of Business Administration)",
+    name: "MBA",
     description: "Entrance exams like CAT, MAT, XAT, etc., for admission to MBA programs offered by various management institutes across India.",
     examShouldGive: null, // MBA does not require any specific exam before it
-    examCanGive:null  
+    examCanGive:null,
+    image:"https://www.mim-essay.com/images/blogs/mba.png"
 
   }),
   new Exam({
-    name: "MHT CET (Maharashtra Common Entrance Test)",
+    name: "MHT CET",
     description: "For admission to undergraduate courses in engineering, pharmacy, and agriculture in colleges in Maharashtra.",
     examShouldGive: null, // MHT CET does not require any specific exam before it
-    examCanGive:null  
+    examCanGive:null,
+    image:"https://upload.wikimedia.org/wikipedia/en/6/60/MHT-CET_logo.png"
   }),
   new Exam({
-    name: "IMU CET (Indian Maritime University Common Entrance Test)",
+    name: "IMU CET",
     description: "Entrance exam for admission to undergraduate programs in maritime studies and related fields at Indian Maritime University and its affiliated institutes.",
     examShouldGive: null, 
-    examCanGive:null  
+    examCanGive:null,
+    image:"https://upload.wikimedia.org/wikipedia/commons/b/b9/Indian_Maritime_University_logo.jpg"
   }),
 ];
 
@@ -956,7 +969,7 @@ new Faq ({
 ]
 
 
-Faq.insertMany(FAQS)
+Exam.insertMany(exams)
   .then((docs)=>{
     console.log('====================================');
     console.log("Data Pushed");
