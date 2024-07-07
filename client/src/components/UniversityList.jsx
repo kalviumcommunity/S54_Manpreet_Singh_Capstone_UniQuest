@@ -27,7 +27,7 @@ const UniversityList = ({ university, onBackClick }) => {
         </div>
 
         <div className="university-image">
-          <img src="https://cdn.fstoppers.com/styles/full/s3/media/2020/12/21/nando-vertical-horizontal-11.jpg" alt={university.name} />
+          <img src={university.image1} alt={university.name} />
         </div>
         <div className="university-name">
           {university.name}
