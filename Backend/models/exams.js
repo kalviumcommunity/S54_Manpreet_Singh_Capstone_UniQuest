@@ -12,7 +12,10 @@ const ExamSchema = new mongoose.Schema({
   },
   examCanGive :{
     type:String,
-  }
+  },
+  image:{
+    type:String,
+  },
 });
 
 const Exam = mongoose.model("Exam",ExamSchema );

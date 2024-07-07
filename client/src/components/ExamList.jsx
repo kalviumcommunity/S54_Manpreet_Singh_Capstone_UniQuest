@@ -20,6 +20,7 @@ const ExamList = () => {
         <h1 style={{ color: "white", textAlign: "center", margin: "2rem", fontSize:"3.5vmax"}}>Exams List</h1>
         {exams.map(exam => (
           <div key={exam._id} className='exam-item' >
+            <img src={exam.image} alt={exam.name} style={{ width: "18vmax", height: "13vmax", float: "left", marginLeft: "2vmax", marginBottom:"1vmax" }} />
             <div style={{color: "white", paddingLeft:"25vmax", fontSize:"2vmax"}} className="exam-name">{exam.name}</div>
             <div style={{color: "white", paddingLeft:"25vmax",width:"70vmax"}} className="exam-description">{exam.description}</div>
             <div style={{color: "white",paddingLeft:"25vmax"}} className="exam-details">
