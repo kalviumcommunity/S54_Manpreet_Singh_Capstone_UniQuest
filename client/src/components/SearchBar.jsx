@@ -15,7 +15,7 @@ const SearchBar = ({  setData, setSelectedExamType }) => {
 
   const handleSearch = async () => {
     try {
-      const response = await axios.get("https://s54-manpreet-singh-capstone-uni-manpreet-singh-aroras-projects.vercel.app/university", {
+      const response = await axios.get("https://s54-manpreet-singh-capstone-uni-quest.vercel.app//university", {
         params: { exam: selectedExam }
       });
       setData(response.data);
@@ -27,7 +27,7 @@ const SearchBar = ({  setData, setSelectedExamType }) => {
   useEffect(() => {
     const fetchExams = async () => {
       try {
-        const response = await axios.get("https://s54-manpreet-singh-capstone-uni-manpreet-singh-aroras-projects.vercel.app/exams");
+        const response = await axios.get("https://s54-manpreet-singh-capstone-uni-quest.vercel.app//exams");
         setExams(response.data);
       } catch (error) {
         console.error("Error fetching exams:", error);

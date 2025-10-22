@@ -16,7 +16,7 @@ const Accordionmodal = () => {
 
   useEffect(() => {
     // Fetch FAQs from the backend
-    fetch('https://s54-manpreet-singh-capstone-uni-manpreet-singh-aroras-projects.vercel.app/faq')  // Replace 'http://your-backend-url/faq' with your actual backend URL
+    fetch('https://s54-manpreet-singh-capstone-uni-quest.vercel.app//faq')  // Replace 'http://your-backend-url/faq' with your actual backend URL
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch FAQs');
