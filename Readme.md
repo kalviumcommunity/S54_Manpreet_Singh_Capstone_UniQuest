@@ -1,6 +1,6 @@
 # UniQuest
 
-# Frontend Deployed Link - **https://uniquest-vert.vercel.app/**
+# Frontend Deployed Link - **https://uniquest-sigma.vercel.app/**
 
 # Backend Deployed Link - **https://s54-manpreet-singh-capstone-uni-quest.vercel.app/**
 
