@@ -7,7 +7,7 @@ const ExamList = () => {
   const [exams, setExams] = useState([]);
 
   useEffect(() => {
-    fetch('https://s54-manpreet-singh-capstone-uni-quest.vercel.app//exams')
+    fetch('https://s54-manpreet-singh-capstone-uni-quest.vercel.app/exams')
       .then(response => response.json())
       .then(data => setExams(data))
       .catch(error => console.error('Error fetching exams:', error));
