@@ -4,21 +4,25 @@ import { Button, FormControl, FormLabel, Select } from "@chakra-ui/react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
-const SearchBar = ({  setData, setSelectedExamType }) => {
+const SearchBar = ({ setData, setSelectedExamType }) => {
   const [exams, setExams] = useState([]);
   const [selectedExam, setSelectedExam] = useState("");
 
   const handleExamChange = (event) => {
     setSelectedExam(event.target.value);
-    setSelectedExamType(event.target.value);  // Set the selected exam type in SearchPage
+    if (setSelectedExamType) {
+      setSelectedExamType(event.target.value);
+    }
   };
 
   const handleSearch = async () => {
     try {
-      const response = await axios.get("https://s54-manpreet-singh-capstone-uni-manpreet-singh-aroras-projects.vercel.app/university", {
+      const response = await axios.get("https://s54-manpreet-singh-capstone-uni-quest.vercel.app/university", {
         params: { exam: selectedExam }
       });
-      setData(response.data);
+      if (setData) {
+        setData(response.data);
+      }
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -27,7 +31,7 @@ const SearchBar = ({  setData, setSelectedExamType }) => {
   useEffect(() => {
     const fetchExams = async () => {
       try {
-        const response = await axios.get("https://s54-manpreet-singh-capstone-uni-manpreet-singh-aroras-projects.vercel.app/exams");
+        const response = await axios.get("https://s54-manpreet-singh-capstone-uni-quest.vercel.app/exams");
         setExams(response.data);
       } catch (error) {
         console.error("Error fetching exams:", error);

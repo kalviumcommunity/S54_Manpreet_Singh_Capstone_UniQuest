@@ -16,7 +16,7 @@ const Accordionmodal = () => {
 
   useEffect(() => {
     // Fetch FAQs from the backend
-    fetch('https://s54-manpreet-singh-capstone-uni-manpreet-singh-aroras-projects.vercel.app/faq')  // Replace 'http://your-backend-url/faq' with your actual backend URL
+    fetch('https://s54-manpreet-singh-capstone-uni-quest.vercel.app/faq')  // Replace 'http://your-backend-url/faq' with your actual backend URL
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch FAQs');
@@ -30,8 +30,8 @@ const Accordionmodal = () => {
   return (
     <div className='accordions'>
       <Accordion defaultIndex={[0]} allowMultiple backgroundColor={"#232323"} borderRadius={"15px"} border={"none"} width={"68vw"} >
-        {faqs.map((faq) => (
-          <AccordionItem key={faq.id} border={"none"}>  
+        {faqs.map((faq, index) => (
+          <AccordionItem key={faq._id || faq.id || index} border={"none"}>  
             <h2>
               <AccordionButton>
                 <Box as="span" flex='1' textAlign='left' color={"#ffffff"} paddingLeft={"40px"} paddingTop={"15px"} paddingBottom={"15px"} fontSize={"4vmin"} fontFamily={"Saira Condensed"} fontWeight={"700"}>

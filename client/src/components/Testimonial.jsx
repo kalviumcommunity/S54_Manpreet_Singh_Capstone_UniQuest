@@ -1,15 +1,12 @@
-import React, { useState, useEffect} from 'react'; // Assuming useContext is needed
+import React, { useState, useEffect } from 'react';
 import { Container, Text, HStack, Flex, Box, Avatar, Icon, SimpleGrid, useColorModeValue } from '@chakra-ui/react';
 import { ImQuotesRight } from 'react-icons/im';
 
 const Testimonials = () => {
   const [testimonials, setTestimonials] = useState([]);
 
-  // Example context (replace or remove if not applicable)
-  // const someContext = useContext(MyContext);
-
   useEffect(() => {
-    fetch('https://s54-manpreet-singh-capstone-uni-manpreet-singh-aroras-projects.vercel.app/testimonial')
+    fetch('https://s54-manpreet-singh-capstone-uni-quest.vercel.app/testimonial')
       .then(response => response.json())
       .then(data => setTestimonials(data))
       .catch(error => console.error('Error fetching testimonials:', error));
@@ -24,7 +21,7 @@ const Testimonials = () => {
       <Container maxW="5xl" p={{ base: 3, md: 6 }}>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing={8} my={8}>
           {testimonials.map((obj, index) => (
-            <Flex key={index} direction="column">  
+            <Flex key={obj._id || obj.id || `testimonial-${index}`} direction="column">  
               <Box
                 p={5}
                 bg={useColorModeValue('#232323', 'blackAlpha.400')}
